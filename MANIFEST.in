@@ -1,0 +1,2 @@
+include src/arbiz/text/prompts/keys.txt
+include src/arbiz/text/templates/key.txt

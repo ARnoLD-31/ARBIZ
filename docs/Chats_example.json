@@ -1,0 +1,178 @@
+[
+  {
+    "id": "u2i-oS6WcPb4RUlpZcNBpylT_A",
+    "context": {
+      "type": "item",
+      "value": {
+        "id": 4427785910,
+        "title": "Загрузочная флешка Windows",
+        "user_id": 186533198,
+        "images": {
+          "main": {
+            "140x105": "https://30.img.avito.st/image/1/1.jqvfkraxIkLxM_JBz-Dqm7MwIEJtJyZA.N_3Nw6NrCeHKNjAaRhDC4loizg51rU6HS5nOGjNcfrI"
+          },
+          "count": 1
+        },
+        "status_id": 4,
+        "price_string": "500 ₽",
+        "url": "https://avito.ru/moskva/igry_pristavki_i_programmy/zagruzochnaya_fleshka_windows_4427785910",
+        "location": {
+          "title": "Москва",
+          "lat": 55.75208225840007,
+          "lon": 37.63481936462151
+        }
+      }
+    },
+    "created": 1721808473,
+    "updated": 1721808990,
+    "users": [
+      {
+        "id": 372709755,
+        "name": "Андрей Захаров",
+        "parsing_allowed": false,
+        "public_user_profile": {
+          "user_id": 372709755,
+          "item_id": 4427785910,
+          "avatar": {
+            "default": "https://static.avito.ru/stub_avatars/%D0%90/1_256x256.png",
+            "images": {
+              "128x128": "https://static.avito.ru/stub_avatars/%D0%90/1_128x128.png",
+              "192x192": "https://static.avito.ru/stub_avatars/%D0%90/1_192x192.png",
+              "24x24": "https://static.avito.ru/stub_avatars/%D0%90/1_24x24.png",
+              "256x256": "https://static.avito.ru/stub_avatars/%D0%90/1_256x256.png",
+              "36x36": "https://static.avito.ru/stub_avatars/%D0%90/1_36x36.png",
+              "48x48": "https://static.avito.ru/stub_avatars/%D0%90/1_48x48.png",
+              "64x64": "https://static.avito.ru/stub_avatars/%D0%90/1_64x64.png",
+              "72x72": "https://static.avito.ru/stub_avatars/%D0%90/1_72x72.png",
+              "96x96": "https://static.avito.ru/stub_avatars/%D0%90/1_96x96.png"
+            }
+          },
+          "url": "https://avito.ru/user/c240d7d254c38b78d6f0d609bab73bac/profile?id=4427785910&iid=4427785910&src=messenger&page_from=from_item_messenger"
+        }
+      },
+      {
+        "id": 186533198,
+        "name": "ARnoLD",
+        "parsing_allowed": true,
+        "public_user_profile": {
+          "user_id": 186533198,
+          "item_id": 4427785910,
+          "avatar": {
+            "default": "https://80.img.avito.st/image/1/1.IL6YUba1mleu9g5R1CEZ0Zjzjlcm-g5RrvaOVQ.vMgExybg6Q2MI5i-mr5do4LC06zalvkZII1V3MA4duE",
+            "images": {
+              "100x100": "https://80.img.avito.st/image/1/1.IL6YUba1mlfm80ZU1CEZ0Zjzjlcm-kZU5vOOVQ.d5Hra2x1DK2PF5Z-YYycdN55RfkXftWhMKW421uYHTM",
+              "1024x1024": "https://80.img.avito.st/image/1/1.IL6YUbatmleu4g5F1CEZ0ZjzjlU.qZ_myxkDv-dwH0msaHX6pyFpl66biPl5MWf7PsbkrQo",
+              "128x128": "https://80.img.avito.st/image/1/1.IL6YUba1mleu8A5X1CEZ0Zjzjlcm-g5XrvCOVQ.AhMe_QlcwTe0nVyA4xyLL8SkADgkECgcjopTUsWE8t0",
+              "132x132": "https://80.img.avito.st/image/1/1.IL6YUba1mlem8AZX1CEZ0Zjzjlcm-gZXpvCOVQ.4GntKl0I7uMEWOjDG9-MPqj0BiClxO_VwDqXOnm7m-Q",
+              "176x176": "https://80.img.avito.st/image/1/1.IL6YUba1mlfO8G5X1CEZ0Zjzjlcm-m5XzvCOVQ.gvL-mQVaztERf5bkZDBy29tB_X9sBFdZaVpz816W1KM",
+              "192x192": "https://80.img.avito.st/image/1/1.IL6YUba1mleu8Q5W1CEZ0Zjzjlcm-g5WrvGOVQ.R6fgiTXaUN7at0WI7k-HT-M_6cfanzt5v3TnWX9Nt_I",
+              "256x256": "https://80.img.avito.st/image/1/1.IL6YUba1mleu9g5R1CEZ0Zjzjlcm-g5RrvaOVQ.vMgExybg6Q2MI5i-mr5do4LC06zalvkZII1V3MA4duE",
+              "25x25": "https://80.img.avito.st/image/1/1.IL6YUbaxmlccwHSGuXY4VC7whl0cwI5V.4ELK0st3FdvWx4YTSaMKq4tEu5bOo6CGc3LMjFDxQWU",
+              "50x50": "https://80.img.avito.st/image/1/1.IL6YUbaxmldKlnSGuXY4VC7whl1Klo5V.adGcp_WpBc8yUztAjYDsO1G_r0knV8qLJiulSaE84YM",
+              "64x64": "https://80.img.avito.st/image/1/1.IL6YUba1mleu8w5U1CEZ0Zjzjlcm-g5UrvOOVQ.l3lFM1SG3qihcv5MA1O4TLEBO00RbSkl3a7SG_fA6A8",
+              "96x96": "https://80.img.avito.st/image/1/1.IL6YUba1mlfu805U1CEZ0Zjzjlcm-k5U7vOOVQ.DP_2x41FPLQlhJnjQKUJTHrFPuTsecxQDdbq5gkbv-M"
+            }
+          },
+          "url": "https://avito.ru/user/e7c8b93b19e7c37fd82ffc17ddb28b07/profile?id=4427785910&iid=4427785910&src=messenger&page_from=from_item_messenger"
+        }
+      }
+    ],
+    "last_message": {
+      "id": "e5d540397457eb9ac0e3946e52096efb",
+      "author_id": 372709755,
+      "created": 1721808990,
+      "content": {
+        "text": "Подумаю"
+      },
+      "type": "text",
+      "direction": "in",
+      "read": 1721809369,
+      "delivered": 1721808990
+    }
+  },
+  {
+    "id": "u2i-OBUjNyP04lC~fjW4AizLTw",
+    "context": {
+      "type": "item",
+      "value": {
+        "id": 0,
+        "title": "",
+        "url": ""
+      }
+    },
+    "created": 1713977613,
+    "updated": 1721934066,
+    "users": [
+      {
+        "id": 352520441,
+        "name": "RedSquare",
+        "parsing_allowed": false,
+        "public_user_profile": {
+          "user_id": 352520441,
+          "item_id": 4107970368,
+          "avatar": {
+            "default": "https://80.img.avito.st/image/1/1.aBZuSba10v9Y7kb5MhA0DRHrxv_Q4kb5WO7G_Q.G_tHLv5UPsmTk4CYB0ww3SO6UzufP4kfh5UP9NQCO1w",
+            "images": {
+              "100x100": "https://80.img.avito.st/image/1/1.aBZuSba10v8Q6w78MhA0DRHrxv_Q4g78EOvG_Q.Sf0-ErZyrHA006iB70SOwy8i-rY7NSZvC2lRz8HJjsw",
+              "1024x1024": "https://80.img.avito.st/image/1/1.aBZuSbat0v9Y-kbtMhA0DRHrxv0.cGtQpDpcUMRcRJHv8tiyfM4wFVnSLHxkJd89rgaxaag",
+              "128x128": "https://80.img.avito.st/image/1/1.aBZuSba10v9Y6Eb_MhA0DRHrxv_Q4kb_WOjG_Q.XfIG3V3QDSFP7tr0Xojt8Hr9Ys99duf9ZBLFrEz7j4A",
+              "132x132": "https://80.img.avito.st/image/1/1.aBZuSba10v9Q6E7_MhA0DRHrxv_Q4k7_UOjG_Q.R_VyJxbSwk9MbsiWsD5oiFEkey92dwNs2i-uCBZT_3U",
+              "176x176": "https://80.img.avito.st/image/1/1.aBZuSba10v846Cb_MhA0DRHrxv_Q4ib_OOjG_Q.NX_Pmfs5OaVY2aL4DGTgKzHv6wHDg96G9HWQZu6L2Io",
+              "192x192": "https://80.img.avito.st/image/1/1.aBZuSba10v9Y6Ub-MhA0DRHrxv_Q4kb-WOnG_Q.TNOxt2pEYkgTCvMHpccs2_Ynad5vtiX9yORGf5Wl_Hc",
+              "256x256": "https://80.img.avito.st/image/1/1.aBZuSba10v9Y7kb5MhA0DRHrxv_Q4kb5WO7G_Q.G_tHLv5UPsmTk4CYB0ww3SO6UzufP4kfh5UP9NQCO1w",
+              "25x25": "https://80.img.avito.st/image/1/1.aBZuSbax0v_q2CwHKhoP_NjozvXq2Mb9.McP084WrJr_osRP3M61diaM8Uy0TZg1wXqJvWVj39lA",
+              "50x50": "https://80.img.avito.st/image/1/1.aBZuSbax0v-8jiwHKhoP_NjozvW8jsb9.aM0Z7iDqQ5pIsuz14osC7ILkW3V7QfOApDhJnykDeiM",
+              "64x64": "https://80.img.avito.st/image/1/1.aBZuSba10v9Y60b8MhA0DRHrxv_Q4kb8WOvG_Q.eeXbFw7h-rESfm5AW3AlKvNQ6abnx9X4xi0o-8XR6wk",
+              "96x96": "https://80.img.avito.st/image/1/1.aBZuSba10v8Y6wb8MhA0DRHrxv_Q4gb8GOvG_Q.lflzUzZC8txOCqm6D5hN1wIRhDHvgcPeUteUQI3BC68"
+            }
+          },
+          "url": "https://avito.ru/user/4e454c8398ecc0c6ff871887ead57b5d/profile?id=4107970368&iid=4107970368&src=messenger&page_from=from_item_messenger"
+        }
+      },
+      {
+        "id": 186533198,
+        "name": "ARnoLD",
+        "parsing_allowed": true,
+        "public_user_profile": {
+          "user_id": 186533198,
+          "item_id": 4107970368,
+          "avatar": {
+            "default": "https://80.img.avito.st/image/1/1.IL6YUba1mleu9g5R1CEZ0Zjzjlcm-g5RrvaOVQ.vMgExybg6Q2MI5i-mr5do4LC06zalvkZII1V3MA4duE",
+            "images": {
+              "100x100": "https://80.img.avito.st/image/1/1.IL6YUba1mlfm80ZU1CEZ0Zjzjlcm-kZU5vOOVQ.d5Hra2x1DK2PF5Z-YYycdN55RfkXftWhMKW421uYHTM",
+              "1024x1024": "https://80.img.avito.st/image/1/1.IL6YUbatmleu4g5F1CEZ0ZjzjlU.qZ_myxkDv-dwH0msaHX6pyFpl66biPl5MWf7PsbkrQo",
+              "128x128": "https://80.img.avito.st/image/1/1.IL6YUba1mleu8A5X1CEZ0Zjzjlcm-g5XrvCOVQ.AhMe_QlcwTe0nVyA4xyLL8SkADgkECgcjopTUsWE8t0",
+              "132x132": "https://80.img.avito.st/image/1/1.IL6YUba1mlem8AZX1CEZ0Zjzjlcm-gZXpvCOVQ.4GntKl0I7uMEWOjDG9-MPqj0BiClxO_VwDqXOnm7m-Q",
+              "176x176": "https://80.img.avito.st/image/1/1.IL6YUba1mlfO8G5X1CEZ0Zjzjlcm-m5XzvCOVQ.gvL-mQVaztERf5bkZDBy29tB_X9sBFdZaVpz816W1KM",
+              "192x192": "https://80.img.avito.st/image/1/1.IL6YUba1mleu8Q5W1CEZ0Zjzjlcm-g5WrvGOVQ.R6fgiTXaUN7at0WI7k-HT-M_6cfanzt5v3TnWX9Nt_I",
+              "256x256": "https://80.img.avito.st/image/1/1.IL6YUba1mleu9g5R1CEZ0Zjzjlcm-g5RrvaOVQ.vMgExybg6Q2MI5i-mr5do4LC06zalvkZII1V3MA4duE",
+              "25x25": "https://80.img.avito.st/image/1/1.IL6YUbaxmlccwHSGuXY4VC7whl0cwI5V.4ELK0st3FdvWx4YTSaMKq4tEu5bOo6CGc3LMjFDxQWU",
+              "50x50": "https://80.img.avito.st/image/1/1.IL6YUbaxmldKlnSGuXY4VC7whl1Klo5V.adGcp_WpBc8yUztAjYDsO1G_r0knV8qLJiulSaE84YM",
+              "64x64": "https://80.img.avito.st/image/1/1.IL6YUba1mleu8w5U1CEZ0Zjzjlcm-g5UrvOOVQ.l3lFM1SG3qihcv5MA1O4TLEBO00RbSkl3a7SG_fA6A8",
+              "96x96": "https://80.img.avito.st/image/1/1.IL6YUba1mlfu805U1CEZ0Zjzjlcm-k5U7vOOVQ.DP_2x41FPLQlhJnjQKUJTHrFPuTsecxQDdbq5gkbv-M"
+            }
+          },
+          "url": "https://avito.ru/user/e7c8b93b19e7c37fd82ffc17ddb28b07/profile?id=4107970368&iid=4107970368&src=messenger&page_from=from_item_messenger"
+        }
+      }
+    ],
+    "last_message": {
+      "id": "ecf6bf670b430bc2e1831fab9eb85e81",
+      "author_id": 352520441,
+      "created": 1721934066,
+      "content": {
+        "image": {
+          "sizes": {
+            "1280x960": "https://40.img.avito.st/image/1/1.ToAbnLaN9mktK2BkC_100nY-oF6fXIUIzl7TDs8G2V-eW9IKnQmGD5lag1KcWdJelFvVaw.O4z4wfMhqQueicMPtcqFtIxGtwSbset4FI_sFxolRoA?",
+            "140x105": "https://40.img.avito.st/image/1/1.ToAbnLaW9mk1PTJqC_100nY-oF6fXIUIzl7TDs8G2V-eW9IKnQmGD5lag1KcWdJelFvVaas9eGl_PuA.FBjD0ihvOAbmgdoV6tNPMLz7SmiP8LiVgXVwVPYuY2E?",
+            "32x32": "https://40.img.avito.st/image/1/1.ToAbnLaS9mntf0apOYY7au0K0gjIXIMKnlqCUpQL0w-fXtBdy1vUDs4G0Q2fCtkPmD3mae1_4A.0o3zUvQzl-5KcQrK6pCbkTZacAu43VO7ZbBGE4gkCak?",
+            "640x480": "https://40.img.avito.st/image/1/1.ToAbnLaN9mktNSBsC_100nY-oF6fXIUIzl7TDs8G2V-eW9IKnQmGD5lag1KcWdJelFvVaw.Bd7F83hwcKX0GCV9XivQuGS4c2TWaEPE2g_9mfMsoks?"
+          }
+        }
+      },
+      "type": "image",
+      "direction": "in",
+      "delivered": 1721934066
+    }
+  }
+]

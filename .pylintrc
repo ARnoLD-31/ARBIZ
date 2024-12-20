@@ -1,0 +1,2 @@
+[MESSAGES CONTROL]
+disable=relative-beyond-top-level, too-many-arguments, redefined-builtin, redefined-outer-name, too-few-public-methods, too-many-function-args, too-many-positional-arguments, missing-module-docstring, missing-function-docstring, missing-class-docstring
