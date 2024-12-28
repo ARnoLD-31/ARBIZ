@@ -1,3 +1,3 @@
-# ARAV [PRIVATE]
+# ARBIZ
 
-This is an Avito automatic machine
+ARnoLD Business. Program, that handles Avito and Yandex Market
