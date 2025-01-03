@@ -5,14 +5,21 @@ from .. import json, output
 
 DS: Dispatcher = Dispatcher()
 BOT: Bot = Bot(token=json.telegram.bot_token())
-COMMANDS: list[BotCommand] = [
-    BotCommand(command="start_avito", description="Starts avito polling"),
-    BotCommand(command="stop_avito", description="Stops avito polling"),
-    BotCommand(command="show_keys", description="Shows keys"),
-    BotCommand(command="add_keys", description="Adds keys")
-]
+COMMANDS: dict[str, str] = {
+    "terminate": "Terminate program",
+    "start_avito": "Start Avito polling",
+    "stop_avito": "Stop Avito polling",
+    "show_keys": "Show keys",
+    "add_key": "Add key",
+}
+
 
 async def initialize() -> None:
     output.info("MAIN", "Telegram initialized")
-    await BOT.set_my_commands(COMMANDS)
+    await BOT.set_my_commands(
+        [
+            BotCommand(command=command, description=description)
+            for command, description in COMMANDS.items()
+        ]
+    )
     await DS.start_polling(BOT)

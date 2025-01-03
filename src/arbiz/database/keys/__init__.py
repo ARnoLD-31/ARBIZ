@@ -1,7 +1,7 @@
 import aiosqlite
 
 from ._exceptions import NoKeys
-from ._operations import add, get
+from ._operations import info, add, delete, get
 from ._parameters import (
     keys,
     product,
@@ -9,14 +9,16 @@ from ._parameters import (
     link,
     mak,
     expired,
-    sent_to
+    sent_to,
 )
 
 __all__: list[str] = [
     # _exceptions.py
     "NoKeys",
     # _operations.py
+    "info",
     "add",
+    "delete",
     "get",
     # _parameters.py
     "keys",
@@ -25,7 +27,7 @@ __all__: list[str] = [
     "link",
     "mak",
     "expired",
-    "sent_to"
+    "sent_to",
 ]
 
 

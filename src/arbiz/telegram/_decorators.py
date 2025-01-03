@@ -9,8 +9,7 @@ from .. import json
 
 def security(function: Callable) -> Callable:
     async def wrapper(
-            object: Message | CallbackQuery,
-            state: FSMContext
+        object: Message | CallbackQuery, state: FSMContext
     ) -> None:
         user_id: int = object.from_user.id
         kwargs_keys: tuple[str, ...] = tuple(
@@ -24,4 +23,5 @@ def security(function: Callable) -> Callable:
             await object.answer("Access denied")
         else:
             await function(object, **kwargs)
+
     return wrapper

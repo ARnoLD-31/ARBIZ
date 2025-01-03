@@ -7,10 +7,7 @@ from ._exceptions import ValueNotFound
 
 
 async def get(
-        conn: Connection,
-        table_name: str,
-        name: str,
-        condition: str
+    conn: Connection, table_name: str, name: str, condition: str
 ) -> None | str | int | list | tuple:
     query: str = f"SELECT {name} FROM {table_name} WHERE {condition}"
     async with await conn.execute(query) as cursor:
@@ -31,11 +28,11 @@ async def get(
 
 
 async def set(
-        conn: Connection,
-        table_name: str,
-        name: str,
-        value: str | int | list,
-        condition: str
+    conn: Connection,
+    table_name: str,
+    name: str,
+    value: str | int | list,
+    condition: str,
 ) -> None:
     query: str = f"""
         UPDATE {table_name}
@@ -47,4 +44,17 @@ async def set(
     elif isinstance(value, bool):
         value: int = int(value)
     await conn.execute(query, (value,))
+    await conn.commit()
+
+
+async def delete(
+    conn: Connection,
+    table_name: str,
+    condition: str,
+) -> None:
+    query: str = f"""
+        DELETE FROM {table_name}
+        WHERE {condition}
+    """
+    await conn.execute(query)
     await conn.commit()
