@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="arbiz",
-    version="1.4.4",
+    version="1.4.5",
     author="ARnoLD",
     author_email="pavelmilosh31@gmail.com",
     description="ARBIZ bot package",
@@ -21,8 +21,9 @@ setup(
     python_requires=">=3.6",
     install_requires=[
         requirement.strip()
-        for requirement in
-        open("requirements.txt", encoding="utf-8").readlines()
+        for requirement in open(
+            "requirements.txt", encoding="utf-8"
+        ).readlines()
     ],
     entry_points={
         "console_scripts": [

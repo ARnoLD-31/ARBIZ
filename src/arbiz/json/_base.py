@@ -10,6 +10,7 @@ def get(*keys: str) -> str | int | dict | list:
         value = value[key]
     return value
 
+
 def set(*keys: str, value: str | list) -> None:
     all_settings: dict = get()
     old_value: str | int | dict = all_settings
@@ -17,4 +18,5 @@ def set(*keys: str, value: str | list) -> None:
         old_value = old_value[key]
     old_value[keys[-1]] = value
     with open(config.path, "w", encoding="utf-8") as file:
+        # noinspection PyTypeChecker
         json.dump(all_settings, file, indent=4)

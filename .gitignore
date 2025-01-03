@@ -1,1 +1,4 @@
 /.venv/
+/src/arnold_digital.json
+/src/clients.db
+/src/keys.db

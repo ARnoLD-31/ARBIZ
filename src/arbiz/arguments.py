@@ -1,31 +1,38 @@
 import sys
 from argparse import ArgumentParser, Namespace
+from typing import Any
 
 from . import json, output
 
 
+ARGUMENTS: tuple[dict[str, Any], ...] = (
+    {
+        "flags": ("--version",),
+        "help": "Show version and exit",
+        "action": "store_true",
+    },
+    {
+        "flags": ("--json", "-js"),
+        "help": "Path to the json config",
+        "type": str,
+    },
+    {
+        "flags": ("--avito", "-av"),
+        "help": "Enable Avito polling",
+        "action": "store_true",
+    },
+    {
+        "flags": ("--yandex_market", "-yam"),
+        "help": "Enable Yandex Market polling",
+        "action": "store_true",
+    },
+)
+
+
 def _args() -> Namespace:
     parser: ArgumentParser = ArgumentParser()
-    parser.add_argument(
-        "--version",
-        action="store_true",
-        help="Shows program's version",
-    )
-    parser.add_argument(
-        "--json",
-        "-js",
-        type=str,
-        help="Path to the json file",
-    )
-    parser.add_argument(
-        "--avito", "-av", help="Enables Avito polling", action="store_true"
-    )
-    parser.add_argument(
-        "--yandex_market",
-        "-yam",
-        help="Enables Yandex Market polling",
-        action="store_true",
-    )
+    for argument in ARGUMENTS:
+        parser.add_argument(*argument.pop("flags"), **argument)
     args: Namespace = parser.parse_args()
 
     if args.version:

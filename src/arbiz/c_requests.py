@@ -13,8 +13,9 @@ async def _fetch(url: str, method: str, **kwargs: dict):
         try:
             async with ClientSession() as session:
                 async with session.request(method, url, **kwargs) as response:
-                    content_type = \
-                        response.headers.get("Content-Type", "").lower()
+                    content_type = response.headers.get(
+                        "Content-Type", ""
+                    ).lower()
                     if "application/json" in content_type:
                         return await response.json()
                     if "text/" in content_type:
