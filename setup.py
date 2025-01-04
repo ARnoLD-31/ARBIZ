@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="arbiz",
-    version="1.5.0",
+    version="1.5.1",
     author="ARnoLD",
     author_email="pavelmilosh31@gmail.com",
     description="ARBIZ bot package",

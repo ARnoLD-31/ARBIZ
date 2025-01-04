@@ -2,8 +2,8 @@ from aiogram import F
 from aiogram.types import CallbackQuery, InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 
-from ..._base import BOT, DS
-from .... import database
+from .._base import BOT, DS
+from ... import database
 
 
 @DS.callback_query(F.data.startswith("key_delete"))

@@ -1,7 +1,7 @@
 import asyncio
 import datetime
 
-from . import api, _config
+from . import api, config
 from .. import database, text, output
 
 
@@ -36,16 +36,16 @@ async def _process_dbs_order(order: dict) -> None:
 
         items.append(data)
 
-    await api.orders.send_dbs(_config.DBS, id, items)
+    await api.orders.send_dbs(config.DBS, id, items)
     chat_id: int = (await api.chats.create(id))["result"]["chatId"]
     await api.chats.send_message(chat_id, text.yam.key.CHAT)
     output.info("YAM", f'New purchase. Order: "{buyer_id}"')
 
 
 async def polling() -> None:
-    while True:
+    while config.polling:
         for order in (
-            await api.orders.orders(_config.DBS, status=["PROCESSING"])
+            await api.orders.orders(config.DBS, status=["PROCESSING"])
         )["orders"]:
             asyncio.create_task(_process_dbs_order(order))
         output.info("YAM", "New iteration")

@@ -1,12 +1,17 @@
-from . import api, _config
+from . import api, config
 from ._tasks import polling
 
 
-__all__: list[str] = ["api", "polling"]
+__all__: list[str] = [
+    "api",
+    "config",
+    # _tasks.py
+    "polling",
+]
 
 
 async def initialize() -> None:
     for campaign in (await api.bus_camp.campaigns())["campaigns"]:
         if campaign["placementType"] == "DBS":
-            _config.DBS = campaign["id"]
-            _config.business_id = campaign["business"]["id"]
+            config.DBS = campaign["id"]
+            config.business_id = campaign["business"]["id"]

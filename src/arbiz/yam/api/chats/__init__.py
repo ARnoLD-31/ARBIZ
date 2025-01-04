@@ -1,9 +1,9 @@
-from ... import _config
+from ... import config
 from .... import json, c_requests
 
 
 async def create(order_id: int) -> dict:
-    url: str = f"https://api.partner.market.yandex.ru/businesses/{_config.business_id}/chats/new"
+    url: str = f"https://api.partner.market.yandex.ru/businesses/{config.business_id}/chats/new"
     kwargs: dict = {
         "headers": {"Api-Key": json.yam.api_key()},
         "json": {"orderId": order_id},
@@ -12,7 +12,7 @@ async def create(order_id: int) -> dict:
 
 
 async def send_message(chat_id: int, message: str) -> dict:
-    url: str = f"https://api.partner.market.yandex.ru/businesses/{_config.business_id}/chats/message"
+    url: str = f"https://api.partner.market.yandex.ru/businesses/{config.business_id}/chats/message"
     kwargs: dict = {
         "headers": {"Api-Key": json.yam.api_key()},
         "params": {"chatId": chat_id},

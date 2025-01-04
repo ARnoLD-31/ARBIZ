@@ -6,7 +6,10 @@ from .. import json, output
 DS: Dispatcher = Dispatcher()
 BOT: Bot = Bot(token=json.telegram.bot_token())
 COMMANDS: dict[str, str] = {
+    "status": "Program's status",
     "terminate": "Terminate program",
+    "start_yam": "Start Yandex Market polling",
+    "stop_yam": "Stop Yandex Market polling",
     "start_avito": "Start Avito polling",
     "stop_avito": "Stop Avito polling",
     "show_keys": "Show keys",
