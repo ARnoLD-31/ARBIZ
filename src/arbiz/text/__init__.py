@@ -1,3 +1,3 @@
-from . import prompts, templates
+from . import yam
 
-__all__: list[str] = ["prompts", "templates"]
+__all__: list[str] = ["yam"]

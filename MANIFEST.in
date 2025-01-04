@@ -1,2 +1,3 @@
 include src/arbiz/text/prompts/keys.txt
-include src/arbiz/text/templates/key.txt
+include src/arbiz/text/yam/key/chat.txt
+include src/arbiz/text/yam/key/email.txt
