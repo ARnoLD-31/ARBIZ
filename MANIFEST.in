@@ -1,3 +1,4 @@
 include src/arbiz/text/prompts/keys.txt
+include src/arbiz/text/yam/flashdrive/chat.txt
 include src/arbiz/text/yam/key/chat.txt
 include src/arbiz/text/yam/key/email.txt

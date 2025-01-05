@@ -42,7 +42,59 @@ async def _process_dbs_order(order: dict) -> None:
     output.info("YAM", f'New purchase. Order: "{buyer_id}"')
 
 
+async def _in_delivery() -> None:
+    while True:
+        output.info(
+            "YAM (IN_DELIVERY Service)",
+            "Searching for unanswered orders..."
+        )
+        orders: list[dict] = (
+            (
+                await api.orders.orders(
+                    config.FBS,
+                    limit=50,
+                    status=["DELIVERY", "DELIVERED", "PICKUP"]
+                )
+            )["orders"] +
+            (
+                await api.orders.orders(
+                    config.FBS,
+                    limit=50,
+                    status=["PROCESSING"],
+                    processing_substatus=["SHIPPED"]
+                )
+            )["orders"]
+        )
+
+        for order in orders:
+            order_id: int = order["id"]
+            chat_id: int = (
+                await api.chats.create(order_id)
+            )["result"]["chatId"]
+            history: list[dict] = (
+                await api.chats.history(chat_id)
+            )["result"]["messages"]
+            sorted_history: list[dict] = [
+                message for message in history if message["sender"] != "MARKET"
+            ]
+
+            if not sorted_history:
+                await api.chats.send_message(chat_id, text.yam.flashdrive.CHAT)
+                output.info(
+                    "YAM (IN_DELIVERY Service)",
+                    f"Message sent. Order ID: {order_id}"
+                )
+
+        output.info(
+            "YAM (IN_DELIVERY Service)",
+            "Done"
+        )
+        await asyncio.sleep(12 * 60 * 60)
+
+
 async def polling() -> None:
+    asyncio.create_task(_in_delivery())
+
     while config.polling:
         for order in (
             await api.orders.orders(config.DBS, status=["PROCESSING"])

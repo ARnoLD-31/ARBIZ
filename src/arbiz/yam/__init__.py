@@ -12,6 +12,8 @@ __all__: list[str] = [
 
 async def initialize() -> None:
     for campaign in (await api.bus_camp.campaigns())["campaigns"]:
+        config.business_id = campaign["business"]["id"]
         if campaign["placementType"] == "DBS":
             config.DBS = campaign["id"]
-            config.business_id = campaign["business"]["id"]
+        elif campaign["placementType"] == "FBS":
+            config.FBS = campaign["id"]

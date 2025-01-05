@@ -1,3 +1,3 @@
-from . import key
+from . import flashdrive, key
 
-__all__: list[str] = ["key"]
+__all__: list[str] = ["flashdrive", "key"]
